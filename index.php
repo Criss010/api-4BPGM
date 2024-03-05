@@ -1,9 +1,9 @@
-<?php
+<?php//Moreno arechiga cristopher. 4BPGM. 5/marzo/24.
 // Agregamos los objetos
 $DispositivoElectronico = [
     "marca" => "iphone",
     "modelo" => 14,
-    "numero de serie" =>23487383847 ,
+    "numero de serie" =>2348737,
     "tipo de dispositivo" => "smartphone",
     "sistema operativo" => "iOS",
      "capacidad de alacenamiento" => "128GB",
@@ -21,10 +21,6 @@ $DispositivoElectronico = [
      "Color" => "NEGRO",
      "Precio(pesos)" => 20000.00,
      "disponibilidad en stock" => 100,
-     
-     
-    
-    // Puedes agregar más atributos aquí
 ];
 
 $AplicacionMovil = [
@@ -48,8 +44,6 @@ $AplicacionMovil = [
     "Reseñas de expertos" => "si tiene",
     "Precios de las compras dentro de la aplicación" => "99 - 2000",
     "Enlaces a redes sociales del desarrollador" => "@callofdutymobilelatam",
-   
-    // Puedes agregar más atributos aquí
 ];
 
 $ProductoTecnologico = [
@@ -74,7 +68,6 @@ $ProductoTecnologico = [
     "certificado y aprobado" => "si",
     "Enlaces a manuales de usuario" => "https://www.apple.com/mx/store?afid=p238%7CAuuILfqP-dc_mtid_1870765e38482_pcrid_77721937565512_pgrid_2052530177_pntwk_o_pchan__pexid__&cid=aos-mx-kwbi-brand--slid---product-",
     
-    // Puedes agregar más atributos aquí
 ];
 
 $RedSocial = [
@@ -98,8 +91,6 @@ $RedSocial = [
     "tamaño de descarga(mb)" => 743,
     "valoracion (stars)" => 4.8,
     "top en applipaciones sociales" => 3,
-    
-    // Puedes agregar más atributos aquí
 ];
 
 // Creamos una lista de objetos en un arreglo
@@ -109,5 +100,5 @@ $tecnologia = [
     $ProductoTecnologico,
     $RedSocial
 ];
- echo json_encode($tecnologia);
+ echo json_encode($tecnologia);//convertir datos entre el formato JSON y las estructuras de datos de PHP.
 ?>
